@@ -2,13 +2,8 @@
 <report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
     <property name="createdBy">Eclipse BIRT Designer Version 4.4.2.v201410272105 Build &lt;4.4.2.v20150217-1805></property>
     <property name="units">in</property>
-<<<<<<< HEAD
     <method name="initialize"><![CDATA[count = 0;
 gsh = new Packages.birt.client.FillClientData();
-=======
-    <method name="initialize"><![CDATA[count = 0;
-gsh = new Packages.birt.client.FillClientData();
->>>>>>> f5e9f703ee5253c52c75137df411a54048cafa54
 information = gsh.getClientInformation();]]></method>
     <property name="iconFile">/templates/blank_report.gif</property>
     <property name="bidiLayoutOrientation">ltr</property>
