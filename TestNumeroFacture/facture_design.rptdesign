@@ -2,12 +2,14 @@
 <report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
     <property name="createdBy">Eclipse BIRT Designer Version 4.4.2.v201410272105 Build &lt;4.4.2.v20150217-1805></property>
     <property name="units">in</property>
+    <method name="initialize"><![CDATA[count = 0;
+gsh = new Packages.birt.client.FillClientData();
+information = gsh.getClientInformation();]]></method>
     <property name="iconFile">/templates/blank_report.gif</property>
     <property name="bidiLayoutOrientation">ltr</property>
     <property name="imageDPI">96</property>
     <data-sources>
         <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="yassou_fact" id="7">
-            <text-property name="displayName"></text-property>
             <list-property name="privateDriverProperties">
                 <ex-property>
                     <name>metadataBidiFormatStr</name>
@@ -29,7 +31,144 @@
             <property name="odaUser">yassou</property>
             <encrypted-property name="odaPassword" encryptionID="base64">cm9vdA==</encrypted-property>
         </oda-data-source>
+        <script-data-source name="client information" id="145"/>
     </data-sources>
+    <data-sets>
+        <script-data-set name="clientDataSet" id="146">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">0</property>
+                    <property name="name">code</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">raison_social</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">adresse</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">mail</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">telephone</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">code</property>
+                    <text-property name="displayName">Code</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">raison_social</property>
+                    <text-property name="displayName">Raison Sociale</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">adresse</property>
+                    <text-property name="displayName">Adresse</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">mail</property>
+                    <text-property name="displayName">Mail</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">telephone</property>
+                    <text-property name="displayName">Téléphone</text-property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">code</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">raison_social</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">adresse</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">mail</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">telephone</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">client information</property>
+        </script-data-set>
+        <script-data-set name="factureDataSet" id="147">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">0</property>
+                    <property name="name">numero</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">date</property>
+                    <property name="dataType">date-time</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">code_client</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">numero</property>
+                    <text-property name="displayName">Numéro</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">date</property>
+                    <text-property name="displayName">Date</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">code_client</property>
+                    <text-property name="displayName">Code client</text-property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">numero</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">date</property>
+                        <property name="dataType">date-time</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">code_client</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">client information</property>
+        </script-data-set>
+    </data-sets>
     <styles>
         <style name="report" id="4">
             <property name="fontFamily">sans-serif</property>
@@ -76,14 +215,16 @@
             <property name="marginLeft">20pt</property>
             <property name="display">block</property>
             <property name="contentType">html</property>
-            <text-property name="content"><![CDATA[<H2>
-<I>
-<B>
-YASSOU CONSULTING
-</B>
-</I>
-</H2>
-]]></text-property>
+            <text-property name="content"><![CDATA[
+            <H2>
+				<I>
+				<B>
+				YASSOU CONSULTING
+				</B>
+				</I>
+				</H2>
+				
+			]]></text-property>
         </text>
         <text id="15">
             <property name="marginLeft">20pt</property>
@@ -104,14 +245,15 @@ CODE B.I.C : CRLYFRPP
             <property name="marginRight">20pt</property>
             <property name="display">block</property>
             <property name="contentType">html</property>
-            <text-property name="content"><![CDATA[<H2>
-<I>
-<B>
-OPEN SAS
-</B>
-</I>
-</H2>
-]]></text-property>
+            <text-property name="content"><![CDATA[
+            <H2>
+				<I>
+				<B>
+				OPEN SAS
+				</B>
+				</I>
+				</H2>
+				]]></text-property>
         </text>
         <text id="18">
             <property name="marginLeft">380pt</property>
