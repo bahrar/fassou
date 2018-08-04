@@ -1,0 +1,5 @@
+datasource:
+  url: jdbc:derby://localhost:1527/testdb
+  username: app
+  password: app
+  driverClassName: org.apache.derby.jdbc.ClientDriver

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8a6d017e-0458-4b52-9fbb-4564477375d2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<subDataset name="Dataset1" uuid="a12087d6-b477-476c-aaaa-abfe7b60d2b7">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="129" splitType="Stretch">
+			<textField>
+				<reportElement x="24" y="18" width="190" height="20" uuid="def11218-cb69-42f8-82f5-b7bb98f2d7d9"/>
+				<textElement>
+					<font size="15" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["YASSOU CONSULTING"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="24" y="63" width="130" height="16" uuid="753b0b17-d377-440a-ad2d-43466d5df5e9"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["92000 Nanterre"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="24" y="75" width="130" height="16" uuid="0578a0c4-a2cb-4d64-aa52-fd8e762c4982"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["FRANCE"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="23" y="86" width="130" height="16" uuid="b04541c7-0f14-42e4-baf3-de426386061d"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["SIRET : 83980098400016"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="24" y="50" width="130" height="16" uuid="58ded656-ff30-45eb-8f19-d8c3e66fbd62"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["9 Rue des Alouettes"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="128" splitType="Stretch">
+			<textField>
+				<reportElement x="23" y="-28" width="188" height="16" uuid="4772b5fe-9377-454a-8478-5dc2be27900b"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["RIB : 30002 00604 0000006901J 61"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="23" y="-17" width="156" height="16" uuid="f509a778-336d-4feb-9632-26caec5a9044"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["TVA intra : FR 42 839800984"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="22" y="7" width="137" height="16" uuid="ed073644-e434-4dd3-aa9a-38d2ceaa2daa"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CODE B.I.C : CRLYFRPP"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="23" y="-5" width="236" height="16" uuid="c2a2f308-ff5c-40df-8690-b598121a6b30"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["IBAN : FR08 3000 2006 0400 0000 6901 J61"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="18" width="170" height="20" uuid="fc04d9af-a067-4713-8df0-0d6284185b24"/>
+				<textElement>
+					<font size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["OPEN SAS"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="361" y="71" width="159" height="16" uuid="23d680c1-36df-4cfd-aeed-f4c6e6e937ac"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["59831 LAMBERSART CEDEX"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="361" y="84" width="130" height="16" uuid="a1fcb1a6-0d5f-4420-a516-274e3a9a2da1"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["FRANCE"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="361" y="96" width="130" height="16" uuid="6b8067ea-d8e4-413a-b10c-36864dcbd670"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["N° intracommunautaire :"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="109" width="130" height="16" uuid="7bf00736-f144-4d52-bcee-4fbedb2ae63b"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["FR83381031285"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="361" y="47" width="188" height="16" uuid="2509d0fb-8d22-4cdb-99c8-7e830a0e35fc"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["COMPTABILITE FOURNISSEURS"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="361" y="59" width="188" height="16" uuid="f2369767-83bc-4c61-8579-1bc2c9082d65"/>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["251 AVENUE DU BOIS - BP 70053"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="273" splitType="Stretch">
+			<textField>
+				<reportElement x="25" y="-6" width="190" height="20" uuid="83c65934-d014-4956-93e9-191ef058ab3b"/>
+				<textElement>
+					<font size="15" isBold="true" isItalic="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["FACTURE"]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement x="30" y="20" width="498" height="44" uuid="1db65ca0-5721-4bcf-817a-3b9e0649934d"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<line>
+					<reportElement x="160" y="1" width="1" height="43" uuid="73a3d8f5-680a-49f1-b37d-23b0d5c17640"/>
+				</line>
+				<line>
+					<reportElement x="328" y="0" width="1" height="44" uuid="b26b5596-0667-4abb-8d4a-40fb6c5be2e2"/>
+				</line>
+				<line>
+					<reportElement x="0" y="21" width="498" height="1" uuid="61368b70-6909-49f6-aa5e-a8c401a333cb"/>
+				</line>
+				<textField>
+					<reportElement x="25" y="6" width="107" height="13" uuid="ab5bcb94-72ad-4480-9ced-bfeb5568ddfe"/>
+					<textElement textAlignment="Center">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["NUMERO FACTURE"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="191" y="7" width="107" height="13" uuid="459dc5aa-12db-4ddd-8d7c-70f7353f81e0"/>
+					<textElement textAlignment="Center">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["NUMERO CLIENT"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="355" y="7" width="119" height="13" uuid="d1569fd6-623c-49a8-beda-9f8a0e12f4f3"/>
+					<textElement textAlignment="Center">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["DATE FACTURATION"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="23" y="27" width="107" height="13" uuid="7153d87d-6608-490a-a02e-05655f0d45e0"/>
+					<textElement textAlignment="Center">
+						<font isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["YC2018-0519"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="361" y="27" width="107" height="13" uuid="df19a0b5-6bf3-472e-869c-32bbbb0398da"/>
+					<textElement textAlignment="Center">
+						<font isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["31/07/2018"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="192" y="28" width="107" height="13" uuid="32cd5a36-45f6-484d-a1ce-7981f950aef5"/>
+					<textElement textAlignment="Center">
+						<font isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["C29084"]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="30" y="80" width="498" height="185" uuid="bb8d904c-e60a-4147-ad37-da26569edcd8"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<line>
+					<reportElement x="-1" y="20" width="499" height="1" uuid="ead7ed55-2c94-4ae4-8fa8-cd3ce056e56f"/>
+				</line>
+				<line>
+					<reportElement x="279" y="1" width="1" height="184" uuid="144fd28a-b70d-4f26-bfcf-efd4c8af2aea"/>
+				</line>
+				<line>
+					<reportElement x="331" y="0" width="1" height="185" uuid="c2e69917-0204-4e0e-bef4-d2d78a3f7a0a"/>
+				</line>
+				<line>
+					<reportElement x="418" y="1" width="1" height="184" uuid="06833997-1cd7-4020-aed3-1dfff63840f8"/>
+				</line>
+				<textField>
+					<reportElement x="104" y="3" width="73" height="14" uuid="99edec0c-94cd-4369-b888-556f909bd0ef"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Désignation"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="293" y="3" width="28" height="14" uuid="9ff544f1-9e68-420e-8ab9-c1fc5d9eb908"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Qté"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="341" y="3" width="68" height="14" uuid="52b3fc96-a484-430b-963c-7ecfbdd0d5e8"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Prix unitaire"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="426" y="3" width="66" height="14" uuid="9d5aea38-48b6-42d5-a0c3-3ec1db082210"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Montant HT"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="31" width="258" height="18" uuid="024ee811-f119-4a8f-b810-b8bf82986776"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Réaliser les développements d’un Sprint dans le respect des"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="41" width="258" height="18" uuid="d3f683a2-d165-4ca4-bdf8-ddb4217ab986"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["règles de développement et de la PIC, de la conception"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="51" width="258" height="18" uuid="864eb354-0811-4d77-b0b3-b96f199954e3"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["détaillée et du délai imparti :"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="61" width="258" height="18" uuid="1ae89f53-ca24-4100-bce5-186f227a12cf"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["• Participer activement au daily meeting et s’investir dans les"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="72" width="258" height="18" uuid="1daba894-52e6-4893-aa6f-1ab07173baf3"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["différents cérémonies Scrum, faire le reporting journalier"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="92" width="258" height="18" uuid="470163e0-73b5-4878-9d70-aa5c099b3134"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["de scrum master"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="103" width="258" height="18" uuid="8dc56e07-10c2-4baa-8848-0d8aeeb89160"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["• Réaliser les analyses d’impact et les chiffrages et contribuer"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="82" width="258" height="18" uuid="bce3db8f-61ac-4454-b571-a80941eaa32b"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Scrum Board, suivi d’activité) et éventuellement jouer le rôle"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="114" width="258" height="18" uuid="003a6d09-956f-4fa0-bdfe-e31d5aba9d3c"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["à la conception détaillée et au développement d’une itération"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="136" width="258" height="18" uuid="945fd481-7931-465c-a2dd-5bb754288d58"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["continue pour valider ses travaux en exécutant"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="126" width="258" height="18" uuid="4b646a50-fc66-4144-9b2c-90a6e1d6754e"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["• Mettre en place et maintenir une plateforme d’intégration"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="155" width="258" height="18" uuid="8dc2d364-93bb-4466-b07f-a429f44b8734"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["• Analyser et corriger les anomalies détectées et remonter les"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="146" width="258" height="18" uuid="5c56b367-130a-479f-a571-3194febd0ed5"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["quotidiennement les tests"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="167" width="258" height="18" uuid="405a5851-d1d8-4847-b04f-0ea7ed4bf441"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["alertes à bon escient au Responsable"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="299" y="30" width="13" height="16" uuid="71d49638-ecfc-4dba-87af-bb2bf0c1fe5d"/>
+					<textFieldExpression><![CDATA["7"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="362" y="30" width="33" height="16" uuid="e01591cc-5999-4628-8c85-3df24f7ea78a"/>
+					<textFieldExpression><![CDATA["600"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="444" y="30" width="33" height="16" uuid="6090f9c9-05e6-40fc-95f8-10c6da5e4931"/>
+					<textFieldExpression><![CDATA["4200"]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="165" splitType="Stretch">
+			<frame>
+				<reportElement x="30" y="10" width="498" height="50" uuid="29eaa58f-4d7a-4af1-aaca-d306178436a7"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<line>
+					<reportElement x="98" y="0" width="1" height="50" uuid="1ab6955b-2f2a-4eb0-b04d-855bd18ffb0c"/>
+				</line>
+				<line>
+					<reportElement x="200" y="0" width="1" height="50" uuid="fd569c05-fa53-4d9d-9dbf-1aa05ec0afa5"/>
+				</line>
+				<line>
+					<reportElement x="398" y="1" width="1" height="50" uuid="10caabae-4dcf-44af-8f14-0e53173f3098"/>
+				</line>
+				<line>
+					<reportElement x="299" y="0" width="1" height="50" uuid="7c6d7260-9eeb-4e0e-a0ce-67135fe72939"/>
+				</line>
+				<line>
+					<reportElement x="0" y="26" width="498" height="1" uuid="3d16ab9d-f620-4464-bb90-4f78281cd941"/>
+				</line>
+				<textField>
+					<reportElement x="327" y="4" width="48" height="18" uuid="91c81568-b30f-47d2-ab87-78182ac919f9"/>
+					<textFieldExpression><![CDATA["Acompte"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="223" y="3" width="52" height="20" uuid="14ac12fb-cf49-41f4-abae-c9a35b312725"/>
+					<textFieldExpression><![CDATA["Total TTC"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="125" y="3" width="56" height="20" uuid="ee992668-2325-44ea-a290-400ea06c9c55"/>
+					<textFieldExpression><![CDATA["Total TVA"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="26" y="4" width="48" height="18" uuid="977fb786-b14c-4caf-a32d-1af223f67476"/>
+					<textFieldExpression><![CDATA["Total HT"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="418" y="4" width="64" height="18" uuid="b8002ef0-dd82-4495-8156-1d49bdebd200"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Net à payer"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="31" y="30" width="42" height="18" uuid="c3a6516b-2f0a-4d71-9df8-274540e06c00"/>
+					<textFieldExpression><![CDATA["4200 €"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="134" y="30" width="36" height="18" uuid="387a4be7-6d34-42c9-bafa-cc2c2592ba2e"/>
+					<textFieldExpression><![CDATA["840 €"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="232" y="30" width="42" height="18" uuid="c562a87d-6b60-4065-89a7-a89721e742e9"/>
+					<textFieldExpression><![CDATA["5040 €"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="337" y="30" width="26" height="18" uuid="bc08d2cd-1456-4d96-92f5-2b15ec5bd3a1"/>
+					<textFieldExpression><![CDATA["0 €"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="428" y="30" width="43" height="18" uuid="529239f7-f40a-4670-8bf5-feafd62872ea"/>
+					<textFieldExpression><![CDATA["5040 €"]]></textFieldExpression>
+				</textField>
+			</frame>
+			<staticText>
+				<reportElement x="30" y="75" width="530" height="50" uuid="4420b6fe-1bbd-436c-9c1c-ca9344e36c0b"/>
+				<textElement>
+					<font size="9" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Les opérations effectuées dans le cadre de la formation professionnelle continue sont exonérées de TVA,
+conformément à l’article 261-4-4°-a du Code Général des Impôts. Aucun escompte pour paiement anticipé. En cas de
+retard, le taux d'intérêt appliqué sera de 12% Une indemnité forfaitaire de 40 € est due pour frais de recouvrement en
+cas de retard de paiement]]></text>
+			</staticText>
+			<frame>
+				<reportElement x="29" y="125" width="498" height="40" uuid="7da8f015-1b6f-4974-ba22-92e5b6466faa"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<staticText>
+					<reportElement x="26" y="6" width="437" height="30" uuid="a5a83036-f00c-4685-aaa7-4b684edecaec"/>
+					<text><![CDATA[Conditions de règlement : 		Virement 			5040 €
+VIREMENT A 60 JOURS DATE FAC		 29/09/2018]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="50" splitType="Stretch">
+			<line>
+				<reportElement x="30" y="0" width="510" height="1" uuid="d8bda396-355c-4ec6-9e8d-c1fd0c321b61"/>
+				<graphicElement>
+					<pen lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="30" y="10" width="510" height="40" uuid="86b77c76-e61e-48f7-8e0f-895d54c3947a"/>
+				<textElement textAlignment="Center">
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Yassou Consulting - SAS au capital de 1000 € - Siège Social : 9 Rue des Alouettes 92000 Nanterre - France - APE 6201Z - SIREN 839 800 984 - N° TVA INTRACOMMUNAUTAIRE : FR42839800984 -Tél +33 (0)7 61 12 22 04]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="16" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="21" splitType="Stretch"/>
+	</summary>
+</jasperReport>
